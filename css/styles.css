@@ -41,6 +41,18 @@ button{
     margin: 25px 0;
     color: greenyellow;
 }
+.scoreDisplay{
+    font-size: 2rem;
+    color: white;
+}
+
+.whiteText, #playerScoreDisplay{
+    color: white;
+}
+
+.redText, #computerScoreDisplay{
+    color: red
+}
 
 p{
     color: whitesmoke;
