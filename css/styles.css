@@ -1,0 +1,48 @@
+body{
+    background: url('images/terminal-bnh-background.jpg')
+}
+
+body{
+    font-family: "Bitcount Grid Single";
+    font-weight: normal;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.0rem;
+    color: white;
+}
+
+.choices{
+    margin-bottom: 25px;
+}
+
+button{
+    color: white;
+    background-color: dimgrey;
+}
+
+.choices button{
+    font-size: 6.5rem;
+    min-width: 150px;
+    margin: 0 10px;
+    border-radius: 300px;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 3.0rem;
+    color: white;
+}
+#resultDisplay{
+    font-size: 4.5rem;
+    margin: 25px 0;
+    color: greenyellow;
+}
+
+p{
+    color: whitesmoke;
+    text-align: center;
+}
